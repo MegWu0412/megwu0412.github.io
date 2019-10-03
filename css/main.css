@@ -1,0 +1,77 @@
+#banner{
+    width:800px;
+    height: 100px;
+    background-color: #5E8587;
+    position: fixed
+}
+#content{
+    width:600px;
+    float: left;
+    margin-left: 100px;
+}
+#nav{
+    width:100px;
+    height: 400px;
+    background-color: antiquewhite;
+    float: left;
+    position:fixed
+}
+#supporting{
+    width:100px;
+    background-color: darkcyan;
+    float: left
+}
+#footer{
+    width:800px;
+    height: 100px;
+    background-color: dimgray;
+    clear: both
+}
+#content div{
+    min-height: 800px
+}
+#nav, #content, #supporting{
+    margin-top: 105px;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+#nav, #content, #supporting, #banner, #footer{
+    padding: 10px;
+}
+.container{
+    padding: 10px
+}
+.item{
+    padding-top: 100px;
+    margin-top: 200px;
+}
+#nav li{
+    display: block;
+    background-color: royalblue;
+    margin: 5px;
+    color: white;
+    padding-left: 3px;
+    text-align: right;
+    box-shadow: 2px 0px 2px 1px gray;
+}
+#nav ul{
+    padding-left: 0px;
+}
+#nav li a{
+    color:white;
+    text-decoration: none;
+    padding-left: 0px;
+    
+}
+#nav li:hover{
+    background-color: coral
+}
+#nav li a:hover{
+    color:antiquewhite
+}
+
+/*ctrl+/ makes a comment*/
+/*cssdeck.com/labs*/
+/*nipponcolor, htmlcolorname*/
